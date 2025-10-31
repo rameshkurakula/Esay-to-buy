@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-g" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodHub: AI-Powered Food Marketplace</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#F59E0B', // Amber 500
+              'primary-dark': '#D97706', // Amber 600
+              secondary: '#10B981', // Emerald 500
+              'secondary-dark': '#059669', // Emerald 600
+              light: '#F3F4F6', // Gray 100
+              dark: '#1F2937', // Gray 800
+            },
+          },
+        },
+      }
+    </script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

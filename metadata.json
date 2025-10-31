@@ -1,0 +1,7 @@
+{
+  "name": "Copy of FoodHub: AI-Powered Food Marketplace",
+  "description": "An AI-powered web platform for buying and selling food items, featuring smart recommendations, image-based food recognition, and a helpful chatbot.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
